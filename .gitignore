@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Locally generated experiment records
+results/generated/
+results/**/records.csv
+results/**/public_events.csv
+results/**/private_events.csv
+
+# Manuscript and figure assets are intentionally excluded
+*.pdf
+*.tex
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.eps
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+suite,method,episodes,converged_epochs,nonconverged_epochs,executed_actions,message_packets_per_converged_epoch,message_scalars_per_converged_epoch,rounds_per_converged_epoch,planning_ms_per_converged_epoch,total_message_packets_per_executed_action,total_rounds_per_executed_action,nonconverged_wasted_message_packets,nonconverged_wasted_message_scalars,nonconverged_wasted_rounds,denominator_note
+allocation_pressure,B6,384,9118,0,9011,0.0,0.0,0.0,7.276129633691599,0.0,0.0,0,0,0,executed action; strict per-commit linkage is unavailable
+allocation_pressure,DVCBBA,384,7709,73,7652,38.78998573096381,543.5571410040212,4.250745881437281,9.60119665326242,40.053058024046,4.338342916884475,7454,108508,428,executed action; strict per-commit linkage is unavailable
+allocation_pressure,P,384,8497,0,8366,41.147228433564784,575.2780981522891,4.494880546075085,11.116055666705897,41.79153717427683,4.565264164475257,0,0,0,executed action; strict per-commit linkage is unavailable
+allocation_pressure,SCBBA,384,355,29,3537,220.22535211267606,3303.3802816901407,7.340845070422535,41.813380281690144,23.723494486853266,0.7907831495617755,5730,85950,191,executed action; strict per-commit linkage is unavailable
+scale,B6,672,24873,0,24683,0.0,0.0,0.0,10.713172918425602,0.0,0.0,0,0,0,executed action; strict per-commit linkage is unavailable
+scale,DVCBBA,672,21207,124,21253,38.95572216720894,789.9519969821285,4.129957089640214,13.113299853821852,39.993883216487085,4.162330023996613,23856,597166,878,executed action; strict per-commit linkage is unavailable
+scale,P,672,23842,0,23788,42.734921566982635,882.5517154601124,4.421734753795823,15.435602088750944,42.831932066588195,4.43177232217925,0,0,0,executed action; strict per-commit linkage is unavailable
+scale,SCBBA,672,615,57,6060,228.83577235772358,4901.1869918699185,6.523577235772358,64.22764227642276,26.483498349834985,0.7419141914191419,19756,504790,484,executed action; strict per-commit linkage is unavailable

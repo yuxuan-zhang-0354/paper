@@ -1,0 +1,7 @@
+{
+  "authorized": true,
+  "authorized_at": "2026-07-17",
+  "manifest_digest": "ac3c7652e5f20b707bc9ddd344e86e73c7d94fe406a1627889ba3e6b672aa871",
+  "scope": "D5 formal raw/warped x retain/rebuild factorial only",
+  "effect_driven_tuning_forbidden": true
+}

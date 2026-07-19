@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "registration_id": "first_batch_joint_belief_v1",
+  "source_design": "docs/superpowers/specs/2026-07-13-multi-uav-validation-harness-design.md",
+  "state_order": ["HA", "HD", "LA", "LD"],
+  "matrix_convention": "observation_rows_truth_columns",
+  "base_parameters": {
+    "value_h": 100.0,
+    "value_l": 30.0,
+    "pi_h": 0.4,
+    "pi_l": 0.75,
+    "duration_r": 4.0,
+    "duration_a": 2.0,
+    "duration_b": 1.5,
+    "beta": 0.02
+  },
+  "cost_grid": {
+    "cost_r": [2.0, 5.0, 8.0],
+    "cost_a": [6.0, 12.0, 20.0],
+    "cost_b": [1.0, 3.0, 6.0]
+  },
+  "sensor_variants": [
+    {
+      "id": "baseline",
+      "recon_class_matrix": [[0.65, 0.15], [0.35, 0.85]],
+      "recon_damage_matrix": [[0.75, 0.25], [0.25, 0.75]],
+      "bda_damage_matrix": [[0.92, 0.06], [0.08, 0.94]]
+    },
+    {
+      "id": "recon_class_minus_010",
+      "recon_class_matrix": [[0.55, 0.25], [0.45, 0.75]],
+      "recon_damage_matrix": [[0.75, 0.25], [0.25, 0.75]],
+      "bda_damage_matrix": [[0.92, 0.06], [0.08, 0.94]]
+    },
+    {
+      "id": "recon_damage_plus_010",
+      "recon_class_matrix": [[0.65, 0.15], [0.35, 0.85]],
+      "recon_damage_matrix": [[0.85, 0.15], [0.15, 0.85]],
+      "bda_damage_matrix": [[0.92, 0.06], [0.08, 0.94]]
+    },
+    {
+      "id": "bda_damage_minus_010",
+      "recon_class_matrix": [[0.65, 0.15], [0.35, 0.85]],
+      "recon_damage_matrix": [[0.75, 0.25], [0.25, 0.75]],
+      "bda_damage_matrix": [[0.82, 0.16], [0.18, 0.84]]
+    }
+  ],
+  "expected_configuration_count": 108,
+  "simplex_step": 0.02,
+  "expected_simplex_point_count": 23426,
+  "property_seed": 7132026,
+  "property_sample_count": 10000
+}

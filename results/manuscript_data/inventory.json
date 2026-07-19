@@ -1,0 +1,97 @@
+{
+  "communication_accounting.csv": {
+    "bytes": 17320,
+    "sha256": "029f2fb5893ecae21594b58e2f721ec56c18200c65dfb3ad2be664f943b9115b",
+    "rows": 56
+  },
+  "fig5_confirmatory_forest.csv": {
+    "bytes": 2499,
+    "sha256": "c606c181f54642eb6f203a522c30128f929268668c4191fa2e5fd9d7232a5754",
+    "rows": 17
+  },
+  "fig6_bda_ecdf.csv": {
+    "bytes": 607909,
+    "sha256": "05fca22c749b8b3a1ca96c7c0f20d3131b136b00d54c8861366a66de15720406",
+    "rows": 4096
+  },
+  "fig6_bda_summary.csv": {
+    "bytes": 1501,
+    "sha256": "7e3a721ae53542e4570ae0dff105929bdf2e8d6a995c3c7b351d595d75a521ac",
+    "rows": 4
+  },
+  "fig7_allocator_stability.csv": {
+    "bytes": 3582,
+    "sha256": "1d2ac5393acb2596ca468de7296b4eaca04a553a84e21a9f9eea3200b013b00e",
+    "rows": 21
+  },
+  "fig7_allocator_workload.csv": {
+    "bytes": 1974,
+    "sha256": "ddeca3efc55c5147bea8cb3d5f826c77dca98220993fb51f1f41d5d0a830d9c7",
+    "rows": 8
+  },
+  "fig8_scalability_tradeoff.csv": {
+    "bytes": 5981,
+    "sha256": "d60cae756b4ac0d5faffb8df129fee95d45bb0905ca63349f04f5011752f58f4",
+    "rows": 49
+  },
+  "fig9_battlefield_heatmap.csv": {
+    "bytes": 13454,
+    "sha256": "10657f1058acc664bf165e1daa87f52e1f44ce2eb53349834e3b2a3076f2e77c",
+    "rows": 80
+  },
+  "fig9_reachability_heatmap.csv": {
+    "bytes": 4231,
+    "sha256": "3a360e4d065985799b92bc38fe4ba3b974da4566d48130bf8419c13cef20e0c2",
+    "rows": 27
+  },
+  "fig9_reachability_regimes.csv": {
+    "bytes": 622,
+    "sha256": "c4095019abde9b33ac0156a947d7090e0c3edfbfe3c2b2eb572bff84b5c4ad50",
+    "rows": 9
+  },
+  "README.md": {
+    "bytes": 1247,
+    "sha256": "2de25da0b877a63c5394b37136637eae6bbf09706fe75c4ba4826a19d6a663aa",
+    "rows": null
+  },
+  "relative_gain_summary.csv": {
+    "bytes": 5866,
+    "sha256": "8417043aa5be8efc4e6070f89952624c423d4a1fd779a831146c6de2cf8bb422",
+    "rows": 27
+  },
+  "table5_main_lifecycle_results.csv": {
+    "bytes": 1391,
+    "sha256": "399ff77c9a0a96e10adf2cdfef48488a0329f83630bc44885794a8adfa3b447d",
+    "rows": 9
+  },
+  "table6_exact_reference.csv": {
+    "bytes": 591,
+    "sha256": "ed158c1794ccd920627da3230ae5f62eb7099ea139d370bfe24347e31931bd1f",
+    "rows": 6
+  },
+  "table6_robustness_summary.csv": {
+    "bytes": 5018,
+    "sha256": "0d9aaa3ba2d58f231a68e4201f9c16498386d9b03be002de2c8bbf0c523224a5",
+    "rows": 33
+  },
+  "table7_d5_factorial_effects.csv": {
+    "bytes": 4466,
+    "sha256": "bd3e46fae62748e09a09b66d5db16a456f51d8f2f60b9076d3172111d14504f4",
+    "rows": 45
+  },
+  "table7_d5_method_summary.csv": {
+    "bytes": 1841,
+    "sha256": "82077ee1fb002832dc98cbf8ab22ec319097eb2b4ba787a3d7de266d8448c5a0",
+    "rows": 8
+  },
+  "table7_d5_paired_contrasts.csv": {
+    "bytes": 4319,
+    "sha256": "3ab6e4b537a5da4a9bab5aa4eb680121036d0ba28c587d8f31e4e60b88a886ba",
+    "rows": 45
+  },
+  "validation_report.json": {
+    "bytes": 626,
+    "sha256": "134bc0b81d17ecc9a3f4f7539cf89aa55a7f4b90f9ccba227dcf5bc84c56e600",
+    "rows": null
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": {
+    "primary_mean_matches_frozen": true,
+    "primary_ci_matches_frozen": true,
+    "bda_scenario_count": true,
+    "bda_utility_identity": true,
+    "battlefield_grid_complete": true,
+    "reachability_grid_complete": true,
+    "reachability_regimes_complete": true,
+    "scale_method_grid_complete": true,
+    "primary_relative_gain_matches_means": true,
+    "relative_gain_intervals_finite": true,
+    "relative_gain_baselines_positive": true,
+    "communication_rows_nonnegative": true,
+    "d5_method_grid_complete": true,
+    "d5_factorial_grid_complete": true
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "commands": [
+    {
+      "command": "$env:PYTHONPATH='.;src'; pytest -q tests/test_dynamic_scenarios.py",
+      "exit_code": 0,
+      "failed_count": 0,
+      "passed_count": 21
+    },
+    {
+      "command": "$env:PYTHONPATH='.;src'; pytest -q tests/test_dynamic_types.py",
+      "exit_code": 0,
+      "failed_count": 0,
+      "passed_count": 39
+    },
+    {
+      "command": "$env:PYTHONPATH='.;src'; pytest -q",
+      "exit_code": 0,
+      "failed_count": 0,
+      "passed_count": 250
+    }
+  ],
+  "d0_contract_digest": "2c2cce4cbda0826083b6b4a04962e9c7f321d2be08b11f9ac8d34c51999f1fa0",
+  "d0_fixture_count": 22,
+  "d1_draw_digest": "1e63ee7c4aad7c796fd5d6380c4a3b1ff4bffb5e12b65b0bb0a3f46915a8737c",
+  "d1_scenario_count": 160,
+  "d2_authorized": false,
+  "files": [
+    {
+      "path": "src/uav_lifecycle/dynamic_scenarios.py",
+      "sha256": "d2e352e733d4721e5c65c94b9ea6325270beddf822bc6d1ce038b6b945da54e3"
+    },
+    {
+      "path": "src/uav_lifecycle/dynamic_types.py",
+      "sha256": "93447133803a3a6c6ab574bfa425fb8b949e3e885eab18343412b4d702bcf2f6"
+    },
+    {
+      "path": "tests/test_dynamic_scenarios.py",
+      "sha256": "bcfe18cb327b6824e00e3339efb82dccdc45264f1c3dcc04da5afc06e461ebd6"
+    },
+    {
+      "path": "tests/test_dynamic_types.py",
+      "sha256": "e4433f5bb827fab5ab1431f68221aa8eeea1d35aa761d19fbf04a882cac499e9"
+    }
+  ],
+  "gates": {
+    "calibration_run_absent": true,
+    "d0_typed_contracts": true,
+    "d0_harness_consumable_scenarios": true,
+    "d0_legal_quantized_timelines": true,
+    "d0_canonical_crn_outcomes": true,
+    "d0_canonical_sensor_observations": true,
+    "d0_public_belief_replay": true,
+    "d0_first_destroyed_payment_trace": true,
+    "d0_busy_idle_agent_commit": true,
+    "d0_multi_run_worlds": true,
+    "d0_rejection_draw_absence": true,
+    "d1_exact_cell_product": true,
+    "d1_unique_ids": true,
+    "deterministic_replay": true,
+    "focused_tests": true,
+    "full_suite": true,
+    "independent_truth_sampling": true,
+    "namespace_separation": true,
+    "scenario_horizon_self_contained": true,
+    "registry_config_only": true,
+    "registry_digest_verified_from_source_bytes": true,
+    "resource_tiers_linked": true,
+    "self_review": true
+  },
+  "no_git": true,
+  "spec_registry_sha256": "314f923560a280221149613fffd7f51eb358150658e11bebf89640d9311cb57e",
+  "spec_version": "dynamic_lifecycle_mainline_v2",
+  "task": 3
+}

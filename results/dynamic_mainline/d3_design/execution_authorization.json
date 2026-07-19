@@ -1,0 +1,7 @@
+{
+  "authorized": true,
+  "authority": "user",
+  "authorized_on": "2026-07-14",
+  "scope": "Execute the complete frozen D3-v2 manifest once with 22 workers; no retry, seed replacement, parameter tuning, or condition removal",
+  "manifest_digest": "e05d85e28cf62a081214001ff76f5bcba9ccf9cb627acdac5cb25bf91ae82aeb"
+}
